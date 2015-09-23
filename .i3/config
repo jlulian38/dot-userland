@@ -163,3 +163,5 @@ bindsym Mod4+r mode "resize"
 bar {
         status_command i3status
 }
+
+exec --no-startup-id vmware-user-suid-wrapper
